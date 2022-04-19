@@ -1,15 +1,5 @@
 version = 1
 
-test_patterns = ["tests/**"]
-
-exclude_patterns = [
-    "roles/**",
-    "profiles/**",
-    "infrastructure-playbooks/**",
-    "group_vars/**",
-    "contrib/**"
-]
-
 [[analyzers]]
 name = "python"
 enabled = true
